@@ -48,10 +48,10 @@ dependencies {
     //Okhttp3
     implementation "com.squareup.okhttp3:okhttp:4.9.3"
     implementation 'com.squareup.okhttp3:logging-interceptor:4.9.3'
-
-
     //Koin
     implementation "io.insert-koin:koin-android:3.1.5"
+    //ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
